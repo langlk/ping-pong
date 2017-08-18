@@ -31,10 +31,15 @@ function pingPongList(range) {
 $(document).ready(function () {
   $("#number").submit(function(event) {
     event.preventDefault();
+    $(".invalid-feedback").hide();
+    $("input#range").removeClass("is-invalid");
+    $(".results").empty();
+
     var range = $("input#range").val();
     var error = getError(range);
     if (error) {
-      console.log(error)
+      $(".invalid-feedback").show();
+      $("input#range").addClass("is-invalid")
     } else {
       var results = pingPongList(parseInt(range));
       results.forEach(function(result) {
