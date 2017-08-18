@@ -1,3 +1,66 @@
+body {
+  background-color: rgb(230, 236, 247);
+  font-family: 'Copse', serif;
+  font-size: 18px;
+}
+
+.jumbotron {
+  border-radius: 0px;
+  background-image: url("../img/pingpong.jpeg");
+  background-size: cover;
+  background-position: center;
+  padding: 3.5rem 2rem 2rem 2rem;
+}
+
+.jumbotron h1 {
+  font-family: 'Shrikhand', cursive;
+  font-size: 60px;
+  color: #244e91;
+  display: inline-block;
+  background-color: rgba(230, 236, 247, .7);
+  padding: 25px;
+  border-radius: 6px;
+}
+
+div[class^="col"] {
+  padding: 15px;
+}
+
 .invalid-feedback {
   display: none;
+}
+
+@media screen and (min-width: 576px) {
+  .jumbotron .container {
+    margin-left: 12%;
+  }
+
+  .container.contents {
+    max-width: 75%;
+  }
+
+  div[class^="col"] {
+    padding: 15px 30px;
+  }
+}
+
+@media screen and (max-width: 510px) {
+  .jumbotron {
+    padding: 3rem .5rem .5rem .5rem;
+  }
+  .jumbotron h1 {
+    font-size: 48px;
+    padding: 15px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .jumbotron {
+    padding: 2rem .5rem .5rem .5rem;
+    text-align: center;
+  }
+
+  .jumbotron h1 {
+    font-size: 36px;
+  }
 }
