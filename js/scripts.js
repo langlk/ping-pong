@@ -13,14 +13,26 @@ function pingPong(number) {
     return "Ping";
   } else if (number % 5 === 0) {
     return "Pong";
+  } else {
+    return number;
   }
-  return number;
+}
+
+function pingPongList(range) {
+  var result = [];
+  result.push(range);
+  return result;
 }
 
 $(document).ready(function () {
   $("#number").submit(function(event) {
     event.preventDefault();
     var range = $("input#range").val();
-    console.log(pingPong(range));
+    var error = getError(range);
+    if (error) {
+      console.log(error)
+    } else {
+      console.log(pingPongList(parseInt(range)));
+    }
   });
 });
