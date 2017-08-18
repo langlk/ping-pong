@@ -37,6 +37,17 @@ div[class^="col"] {
   display: none;
 }
 
+.btn {
+  background-color: rgb(230, 236, 247);
+  color: #244e91;
+  border-color: #244e91;
+}
+.btn:hover {
+  cursor: pointer;
+  background-color: #244e91;
+  color: rgb(230, 236, 247);
+}
+
 @media screen and (min-width: 576px) {
   .jumbotron .container {
     margin-left: 12%;
