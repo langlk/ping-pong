@@ -7,6 +7,9 @@ function getError(input) {
 }
 
 function pingPong(number) {
+  if (number % 3 === 0) {
+    return "Ping";
+  }
   return number;
 }
 
