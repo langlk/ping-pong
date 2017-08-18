@@ -1,5 +1,20 @@
 # Ping-Pong
 
+#### _Epicodus Project in JavaScript, HTML, and CSS, August 18, 2017_
+
+#### By Kelsey Langlois
+
+## Description
+
+_Website that takes a positive integer and prints all integers from 1 to that integer, replacing multiples of 3 with the word Ping, multiples of 5 with the word Pong, and multiples of 15 with the word Ping-Pong._
+
+## Setup/Installation Requirements
+
+_You can view this project on GitHub pages at [langlk.github.io/ping-pong](https://langlk.github.io/ping-pong/). To install on your own computer, follow the steps below:_
+
+* Clone this repository
+* Open index.html in web browser of your choice
+
 ## Specifications
 
 * Program will return an error if input is empty.
@@ -32,3 +47,20 @@
 * Program will replace numbers in the list with the values returned from Ping-Pong method.
   * Example Input: 15
   * Example Output: 1, 2, Ping, 4, Pong, Ping, 7, 8, Ping, Pong, 11, Ping, 13, 14, Ping-Pong
+
+## Support and contact details
+
+_Please contact Kelsey Langlois at [kels.langlois@gmail.com](mailto:kels.langlois@gmail.com) with questions, comments, or issues._
+
+## Technologies Used
+
+* HTML
+* CSS
+* Bootstrap
+* JavaScript
+
+### License
+
+Copyright (c) 2017 **Kelsey Langlois**
+
+*This software is licensed under the MIT license.*
