@@ -5,6 +5,9 @@
 * Program will return an error if input is empty.
   * Example Input: ""
   * Example Output: "Error: Invalid Input"
+* Program will return an error if input is not an integer.
+  * Example Input: 3.14
+  * Example Output: "Error: Invalid Input"
 * Program will return an error if number is less than 1.
   * Example Input: 0
   * Example Output: "Error: Invalid Input"
