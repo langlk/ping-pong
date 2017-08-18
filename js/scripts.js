@@ -3,6 +3,8 @@ function getError(input) {
     return "Error: Invalid Input";
   } if (parseFloat(input) !== parseInt(input)) {
     return "Error: Invalid Input";
+  } if (parseInt(input) < 1) {
+    return "Error: Invalid Input";
   }
 }
 
@@ -34,7 +36,10 @@ $(document).ready(function () {
     if (error) {
       console.log(error)
     } else {
-      console.log(pingPongList(parseInt(range)));
+      var results = pingPongList(parseInt(range));
+      results.forEach(function(result) {
+        $(".results").append("<li>" + result + "</li>");
+      });
     }
   });
 });
