@@ -20,7 +20,9 @@ function pingPong(number) {
 
 function pingPongList(range) {
   var result = [];
-  result.push(range);
+  for (var i = 1; i <= range; i++) {
+    result.push(pingPong(i));
+  }
   return result;
 }
 
