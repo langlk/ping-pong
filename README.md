@@ -1,6 +1,6 @@
 # Ping-Pong
 
-#### _Epicodus Project in JavaScript, HTML, and CSS, August 19, 2017_
+#### _Epicodus Project in JavaScript, HTML, and CSS, August 18, 2017_
 
 #### By Kelsey Langlois
 
