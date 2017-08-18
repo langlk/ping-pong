@@ -1,3 +1,4 @@
+// Business Logic
 function getError(input) {
   if (input.length === 0 || parseFloat(input) !== parseInt(input) || parseInt(input) < 1) {
     return "Error: Invalid Input";
@@ -24,6 +25,7 @@ function pingPongList(range) {
   return result;
 }
 
+// UI Logic
 $(document).ready(function () {
   $("#number").submit(function(event) {
     event.preventDefault();

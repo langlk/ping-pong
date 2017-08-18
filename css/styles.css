@@ -42,6 +42,7 @@ div[class^="col"] {
   color: #244e91;
   border-color: #244e91;
 }
+
 .btn:hover {
   cursor: pointer;
   background-color: #244e91;
