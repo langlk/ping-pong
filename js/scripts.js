@@ -1,9 +1,5 @@
 function getError(input) {
-  if (input.length === 0) {
-    return "Error: Invalid Input";
-  } if (parseFloat(input) !== parseInt(input)) {
-    return "Error: Invalid Input";
-  } if (parseInt(input) < 1) {
+  if (input.length === 0 || parseFloat(input) !== parseInt(input) || parseInt(input) < 1) {
     return "Error: Invalid Input";
   }
 }
